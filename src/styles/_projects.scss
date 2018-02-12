@@ -40,13 +40,13 @@
 .contents-right {
   @media only screen and (min-width: $cut) {
     float: right;
-    margin-top: -5%;
     width: 48%;
   }
 }
 .images-right {
   @media only screen and (min-width: $cut) {
     float: right;
+    margin-top: -15%;
     width: 48%;
   }
   img {
