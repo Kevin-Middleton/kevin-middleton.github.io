@@ -21,7 +21,8 @@
       margin-bottom: 20px !important; } }
 
 .col-1-2 {
-  float: left;
+  text-align: center;
+  margin: 5px auto;
   padding: 0 20px;
   width: 50%; }
   @media (max-width: 760px) {
