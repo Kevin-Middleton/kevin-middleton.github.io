@@ -30,13 +30,9 @@
       margin-bottom: 20px !important; } }
 
 .col-1-3 {
-  float: left;
+  float: center;
   padding: 0 20px;
   width: 33.33%; }
-  @media (max-width: 760px) {
-    .col-1-3 {
-      width: 100%;
-      margin-bottom: 20px; } }
 
 .col-2-3 {
   float: left;
