@@ -32,12 +32,13 @@
       margin-bottom: 20px !important; } }
 
 .col-1-3 {
-  margin-left: 25%;
+  margin-left: auto%;
   margin-right: auto;
   width: 40%; }
+@media (max-width: 860px)
     .col-1-2 {
       width: 100% !important;
-      margin-bottom: 20px !important;}
+      margin-bottom: 20px !important;}}
 
 .col-2-3 {
   float: left;
@@ -110,8 +111,6 @@
   padding: 0.9em; }
 
 #formview textarea {
-  margin-left: auto;
-  margin-right: auto;
   height: 12em; }
 
 html {
