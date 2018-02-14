@@ -68,32 +68,6 @@ table {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
 
-.row {
-  width: 100%; }
-  .row:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0; }
-
-.container {
-  width: 100%;
-  max-width: 950px;
-  margin: 0 auto; }
-  .container:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0; }
-  .container.narrow {
-    max-width: 600px; }
-  @media (max-width: 760px) {
-    .container {
-      max-width: 100% !important; } }
 
 .col-1-1 {
   float: left;
