@@ -168,40 +168,6 @@ table {
       width: 100% !important;
       margin-bottom: 20px !important; } }
 
-body {
-  font-size: 18px;
-  line-height: 1.5em;
-  font-family: 'proxima-nova-soft', sans-serif; }
-
-h1, h2, h3, h4, h5, h6, p {
-  font-family: 'proxima-nova-soft', sans-serif;
-  -webkit-font-smoothing: antialiased; }
-  h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child, p:first-child {
-    margin-top: 0; }
-  h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, p:last-child {
-    margin-bottom: 0; }
-  h1 > small, h2 > small, h3 > small, h4 > small, h5 > small, h6 > small, p > small {
-    font-size: 0.65em;
-    color: #aaa; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
-  line-height: 1.3em;
-  color: #1b3544; }
-  h1.light, h2.light, h3.light, h4.light, h5.light, h6.light {
-    font-weight: 400;
-    color: #444; }
-
-p {
-  line-height: 1.5em;
-  color: #444; }
-
-a {
-  color: #359173;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out; }
-  a:hover {
-    color: #2A735B; }
 
 .center {
   text-align: center; }
