@@ -36,9 +36,10 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
-  width: 40%; }
+  width: 50%; }
     .col-1-2 {
-      width: 100% !important;} }
+      width: 100% !important;}
+      margin-bottom: 20px !important;}
 
 .col-2-3 {
   float: left;
@@ -111,7 +112,7 @@
   padding: 0.9em; }
 
 #formview textarea {
-  height: 10.3em; }
+  height: 12em; }
 
 html {
   height: 100%; }
