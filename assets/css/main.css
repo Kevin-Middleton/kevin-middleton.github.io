@@ -108,6 +108,8 @@
   padding: 0.9em; }
 
 #formview textarea {
+  text-align: center;
+  margin: 5px auto;
   height: 10.3em; }
 
 html {
@@ -221,6 +223,8 @@ input[type="radio"] {
   margin-right: 6px; }
 
 form input, form textarea {
+  text-align: center;
+  margin: 5px auto;
   margin-bottom: 0.5em; }
 
 button, a.button {
