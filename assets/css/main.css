@@ -157,24 +157,6 @@ body#card {
   .row.section#header {
     border-color: #359173; }
 
-#header {
-  border-bottom: 1px solid #ddd; }
-  #header i {
-    font-size: 4em;
-    color: #1b3544; }
-  #header .next {
-    opacity: 0.5; }
-  #header .success i {
-    color: #359173; }
-  #header .error i {
-    color: #D9534F; }
-  #header .done {
-    opacity: 0.3; }
-    #header .done p {
-      text-decoration: line-through; }
-  #header .done i, #header .current i {
-    color: #359173; }
-
 .container {
   padding-top: 1em;
   padding-bottom: 1em; }
@@ -233,6 +215,26 @@ input[type="radio"] {
 
 form input, form textarea {
   margin-bottom: 0.5em; }
+
+-button, a.button {
+ -  font-size: 1em;
+ -  text-transform: uppercase;
+ -  font-weight: 600;
+ -  border: 2px solid #359173;
+ -  color: #359173;
+ -  background: transparent;
+ -  line-height: 1em;
+ -  padding: 0.6em 0.9em;
+ -  transition: all 0.3s ease-in-out; }
+ -  button:hover, a.button:hover {
+ -    border-color: #2A735B;
+ -    color: #2A735B; }
+ -    button:hover.emphasis, a.button:hover.emphasis {
+ -      color: white;
+ -      background-color: #2A735B; }
+ -  button[disabled], button[disabled]:hover, a.button[disabled], a.button[disabled]:hover {
+ -    color: #b0e2d2;
+ -    border-color: #b0e2d2; }
 
 .animate {
   -moz-animation-iteration-count: once;
