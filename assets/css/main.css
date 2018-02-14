@@ -33,6 +33,9 @@
   float: center;
   padding: 0 20px;
   width: 33.33%; }
+    .col-1-2 {
+      width: 100% !important;
+      margin-bottom: 20px !important; } }
 
 .col-2-3 {
   float: left;
