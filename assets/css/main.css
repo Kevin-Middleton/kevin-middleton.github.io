@@ -3587,8 +3587,8 @@ sub,sup{
     transition:color .3s ease-out,background-color .3s ease-out,border-color .3s ease-out
 }
 .project-link:active,.project-link:hover{
-    background-color:#54516a;
-    border-color:#54516a;
+    background-color:#b0e2d2;
+    border-color:#b0e2d2;
     color:#fff;
     transition:color .3s ease-in,background-color .3s ease-in,border-color .3s ease-in
 }
