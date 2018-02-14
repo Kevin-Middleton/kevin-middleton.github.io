@@ -2,22 +2,14 @@
   <h1> Contact Me </h1>
 </div>
 
-<form method="POST" action="http://formspree.io/kevinmiddleton@my.ccsu.edu">
-
-    <div id="form-title">Name:</div>
-    <input type="text" name="name" placeholder="Name:" class="form-field">
-
-    <div id="form-title">Email:</div>
-    <input type="email" name="_replyto" placeholder="Email:" class="form-field">
-
-    <div id="form-message">Message:</div>
-    <textarea name="message" rows="10" placeholder="Enter your message" class="form-field form-message"></textarea>
-
-    <input type="hidden" name="_subject" value="Portfolio Contact" />
-    <input type="text" name="_gotcha" style="display:none">
-
-    <div id="buttons-container">
-       <input type="submit" value="Send" class="buttons">
-    </div>
-
+<div class "container">
+  <div class="col-1-3">
+    <div id="formview">
+<form method="POST" action="https://formspree.io/kevinmiddleton@my.ccsu.edu">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
 </form>
+    </div>
+  </div>
+</div>
