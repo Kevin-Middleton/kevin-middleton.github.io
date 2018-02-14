@@ -111,9 +111,6 @@
   padding: 0.9em; }
 
 #formview textarea {
-  float: left;
-  position: relative;
-  left: -50%;
   height: 10.3em; }
 
 html {
