@@ -11,7 +11,7 @@
   width: 80%;
   margin: 0 auto;
   max-width: 960px;
-  @media only screen and (min-width: $cut) {
+  @media only screen {
   margin: 0 auto;
   width: 80%;
 }
@@ -26,7 +26,7 @@
   p {
     font-size: 16px;
   }
-  @media only screen and (min-width: $cut) {
+  @media only screen {
     visibility: hidden;
     flex-wrap: nowrap;
     margin: 0 auto;
