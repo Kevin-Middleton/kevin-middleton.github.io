@@ -3,6 +3,7 @@
   margin: 0 auto;
   max-width: 960px;
   @media only screen and (min-width: $cut) {
+    margin: 0 auto;
     width: 80%;
   }
 }
@@ -11,10 +12,6 @@
   width: 80%;
   margin: 0 auto;
   max-width: 960px;
-  @media only screen {
-  visibility: hidden;  
-  margin: 0 auto;
-  width: 80%;
 }
 
 .user {
@@ -26,13 +23,6 @@
   justify-content: space-between;
   p {
     font-size: 16px;
-  }
-  @media only screen {
-    visibility: hidden;
-    flex-wrap: nowrap;
-    margin: 0 auto;
-    width: 80%;
-    font-size: 75px;
   }
 }
 
