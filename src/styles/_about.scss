@@ -9,6 +9,8 @@
 
 .tech {
   margin: 0 auto;
+  @media only screen and (min-width: $cut) {
+  width: 80%;
 }
 
 .user {
