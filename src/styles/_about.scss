@@ -8,7 +8,9 @@
 }
 
 .tech {
+  width: 80%;
   margin: 0 auto;
+  max-width: 960px;
   @media only screen and (min-width: $cut) {
   width: 80%;
 }
