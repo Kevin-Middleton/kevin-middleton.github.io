@@ -4,17 +4,18 @@
   max-width: 960px;
   @media only screen and (min-width: $cut) {
     align-content: center;
-    width: 80%;
+    width: 100%;
   }
 }
 
 .tech {
-  margin: 180px;
+  margin: 280px;
   @media only screen and (min-width: $cut) {
   align-content: center;
 }
 
 .user {
+  margin: 280px;
   text-align: center;
   font-size: 60px;
   display: flex;
