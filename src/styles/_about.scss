@@ -1,15 +1,16 @@
 #about {
   width: 90%;
-  margin: 120px auto;
+  margin: 0px auto;
   max-width: 960px;
   @media only screen and (min-width: $cut) {
     align-content: center;
-    width: 100%;
+    width: 80%;
   }
 }
 
 .tech {
-  margin: 280px;
+  margin-left: 30px;
+  margin-right: 30px;  
   @media only screen and (min-width: $cut) {
   align-content: center;
 }
