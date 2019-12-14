@@ -3607,3 +3607,345 @@ sub,sup{
     margin:0;
     color:#fff
 }
+
+
+ .col-1-1 {
+     float: left;
+     padding: 0 20px;
+     width: 100%;
+}
+@media only screen and (min-width:550px){
+     .col-1-1 {
+         width: 100% !important;
+         margin-bottom: 20px !important;
+    }
+}
+ .col-1-2 {
+     text-align: center;
+     margin: 5px auto;
+     padding: 0 20px;
+     width: 50%;
+}
+@media only screen and (min-width:550px){
+     .col-1-2 {
+         width: 100% !important;
+         margin-bottom: 20px !important;
+    }
+}
+ .col-1-3 {
+     margin-left: 29%;
+     margin-right: 31%;
+     width: 40%;
+}
+ .col-1-2 {
+     width: 100% !important;
+     margin-bottom: 20px !important;
+}
+ .col-2-3 {
+     float: left;
+     padding: 0 20px;
+     width: 66.66%;
+}
+@media only screen and (min-width:550px){
+     .col-2-3 {
+         width: 100% !important;
+         margin-bottom: 20px !important;
+    }
+}
+ .col-1-4 {
+     float: left;
+     padding: 0 20px;
+     width: 25%;
+}
+@media only screen and (min-width:550px){
+     .col-1-4 {
+         width: 100% !important;
+         margin-bottom: 20px !important;
+    }
+}
+ .col-3-4 {
+     float: left;
+     padding: 0 20px;
+     width: 75%;
+}
+@media only screen and (min-width:550px){
+     .col-3-4 {
+         width: 100% !important;
+         margin-bottom: 20px !important;
+    }
+}
+ .col-2-5 {
+     float: left;
+     padding: 0 20px;
+     width: 40%;
+}
+@media only screen and (min-width:550px){
+     .col-2-5 {
+         width: 100% !important;
+         margin-bottom: 20px !important;
+    }
+}
+ .col-3-5 {
+     float: left;
+     padding: 0 20px;
+     width: 60%;
+}
+@media only screen and (min-width:550px){
+     .col-3-5 {
+         width: 100% !important;
+         margin-bottom: 20px !important;
+    }
+}
+ .center {
+     text-align: center;
+}
+ .right {
+     text-align: right;
+}
+ .caps {
+     text-transform: uppercase;
+}
+ #editor-frame {
+     position: relative;
+     display: block;
+     width: 100%;
+     height: 200px;
+     border: solid 1px #bbb;
+     margin-bottom: 0.5em;
+}
+ #editor {
+     font-size: 9pt;
+}
+ #editor .CodeMirror {
+     height: 198px;
+     padding: 0.9em;
+}
+ #formview textarea {
+     height: 12em;
+}
+ html {
+     height: 100%;
+}
+ body#card {
+     background: #f1f1fa;
+     padding-top: 4em;
+     font-size: 0.9em;
+     text-align: center;
+}
+ body#card.dashboard {
+     padding-top: 0;
+}
+ .tooltip {
+     font-weight: 600;
+     cursor: help;
+}
+ #title {
+     text-align: center;
+     margin-bottom: 3em;
+}
+ #title h1 {
+     font-size: 1.2em;
+}
+ #title img {
+     max-width: 70px;
+}
+ .row.section {
+     padding-top: 5em;
+     padding-bottom: 5em;
+     border-bottom: 1px solid #ddd;
+}
+ .row.section#header {
+     border-color: #359173;
+}
+ .container {
+     padding-top: 1em;
+     padding-bottom: 1em;
+}
+@media only screen and (min-width:550px){
+     .container {
+         padding-bottom: 0 !important;
+         padding-top: 0 !important;
+    }
+}
+ .container.block {
+     padding-bottom: 1.5em;
+     padding-top: 1.5em;
+}
+@media only screen and (min-width:550px){
+     .container.block {
+         padding-top: 0 !important;
+         padding-bottom: 0 !important;
+    }
+}
+ .container.block:first-child {
+     padding-top: 0;
+}
+ .container.block:last-child {
+     padding-bottom: 0;
+}
+ .container.card {
+     max-width: 500px;
+}
+ .container.index-card {
+     max-width: 950px;
+}
+ .card, .index-card {
+     padding: 0.9em;
+     background: #fff;
+     border: 1px solid #ddd;
+}
+ .card h1, .index-card h1 {
+     font-size: 1.8em;
+}
+ .row.grey {
+     background: #f1f1fa;
+}
+ p {
+     line-height: 1.5em;
+}
+ p.code {
+     font-size: 0.8em;
+     font-family: "source-code-pro", monospace;
+     border: 1px solid #ddd;
+     background: #fff;
+}
+@media only screen and (min-width:550px){
+     p.code {
+         overflow: auto;
+    }
+}
+ span.code {
+     font-family: "source-code-pro", monospace;
+     display: inline-block;
+     padding: 0 0.2em;
+     border: 1px solid #ddd;
+     background: #fff;
+     font-size: 0.9em;
+}
+ input, textarea {
+     font-size: 0.8em;
+     font-family: 'proxima-nova-soft', sans-serif;
+     border: 1px solid #ddd;
+     background: #fff;
+     padding: 0.9em;
+     transition: all 0.3s ease-in-out;
+     width: 100%;
+}
+ input.code, textarea.code {
+     font-family: "source-code-pro", monospace;
+}
+ input:focus, textarea:focus {
+     border-color: #2A735B;
+     outline: none;
+     box-shadow: 0 0 5px 1px #359173;
+}
+ input[type="checkbox"], input[type="radio"] {
+     width: auto;
+     margin-right: 6px;
+}
+ form input, form textarea {
+     margin-bottom: 0.5em;
+}
+ button, a.button {
+     font-size: 1em;
+     text-transform: uppercase;
+     font-weight: 600;
+     border: 2px solid #359173;
+     color: #359173;
+     background: transparent;
+     line-height: 1em;
+     padding: 0.6em 0.9em;
+     transition: all 0.3s ease-in-out;
+}
+ button:hover, a.button:hover {
+     border-color: #2A735B;
+     color: #2A735B;
+}
+ button:hover.emphasis, a.button:hover.emphasis {
+     color: white;
+     background-color: #2A735B;
+}
+ button[disabled], button[disabled]:hover, a.button[disabled], a.button[disabled]:hover {
+     color: #b0e2d2;
+     border-color: #b0e2d2;
+}
+ .animate {
+     -moz-animation-iteration-count: once;
+     -moz-animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+     -moz-animation-duration: 0.4s;
+     -webkit-animation-iteration-count: once;
+     -webkit-animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+     -webkit-animation-duration: 0.4s;
+}
+ .animate.dropIn {
+     -moz-animation-name: dropIn;
+     -webkit-animation-name: dropIn;
+}
+ @-webkit-keyframes fadeIn {
+     0% {
+         -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
+         opacity: 0;
+    }
+     100% {
+         -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
+         opacity: 1;
+    }
+}
+ @-webkit-keyframes dropIn {
+     0% {
+         opacity: 0;
+         -webkit-transform: translate3d(0, -150px, 0);
+         -moz-transform: translate3d(0, -150px, 0);
+    }
+     100% {
+         opacity: 1;
+         -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
+    }
+}
+ @-webkit-keyframes dropInLong {
+     0% {
+         opacity: 0;
+         -webkit-transform: translate3d(0, -450px, 0);
+         -moz-transform: translate3d(0, -450px, 0);
+    }
+     100% {
+         opacity: 1;
+         -webkit-transform: translate3d(0, 0, 0);
+         -moz-transform: translate3d(0, 0, 0);
+    }
+}
+ @-webkit-keyframes rotate {
+     100% {
+         -webkit-transform: rotate(45deg);
+         -moz-transform: rotate(45deg);
+    }
+}
+ @-webkit-keyframes rotateBack {
+     100% {
+         -webkit-transform: rotate(0deg);
+         -moz-transform: rotate(0deg);
+    }
+}
+ 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #2A735B; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 30px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
