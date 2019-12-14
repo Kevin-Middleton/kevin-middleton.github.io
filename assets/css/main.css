@@ -3486,15 +3486,16 @@ sub,sup{
 #about{
     width:90%;
     margin:0 auto;
-    max-width:960px
+    max-width:1260px
 }
 @media only screen and (min-width:550px){
     #about{
         width:80%
+        margin:0 auto;
     }
 }
 .tech{
-    margin:10px
+    margin:50px
 }
 .user{
     text-align:center;
