@@ -3,12 +3,15 @@
   margin: 0 auto;
   max-width: 960px;
   @media only screen and (min-width: $cut) {
+    align-content: center;
     width: 80%;
   }
 }
 
 .tech {
   margin: 10px;
+  @media only screen and (min-width: $cut) {
+  align-content: center;
 }
 
 .user {
@@ -22,6 +25,7 @@
     font-size: 16px;
   }
   @media only screen and (min-width: $cut) {
+    align-content: center;
     flex-wrap: nowrap;
     font-size: 75px;
   }
